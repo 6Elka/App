@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FollowersViewController.swift
 //  Insta
 //
 //  Created by Artem on 31.01.2023.
@@ -7,13 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class FollowersViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .black
     }
-
-
 }
-

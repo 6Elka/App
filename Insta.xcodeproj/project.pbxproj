@@ -9,21 +9,63 @@
 /* Begin PBXBuildFile section */
 		ACED88222989975100CDA6D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED88212989975100CDA6D9 /* AppDelegate.swift */; };
 		ACED88242989975100CDA6D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED88232989975100CDA6D9 /* SceneDelegate.swift */; };
-		ACED88262989975100CDA6D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED88252989975100CDA6D9 /* ViewController.swift */; };
-		ACED88292989975100CDA6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACED88272989975100CDA6D9 /* Main.storyboard */; };
 		ACED882B2989975200CDA6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACED882A2989975200CDA6D9 /* Assets.xcassets */; };
 		ACED882E2989975200CDA6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACED882C2989975200CDA6D9 /* LaunchScreen.storyboard */; };
+		ACED8837298997F100CDA6D9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED8836298997F100CDA6D9 /* MainTabBarController.swift */; };
+		ACED883C2989984E00CDA6D9 /* Extension + UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED883B2989984E00CDA6D9 /* Extension + UITableView.swift */; };
+		ACED883E2989986600CDA6D9 /* Extension + UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED883D2989986600CDA6D9 /* Extension + UIImageView.swift */; };
+		ACED88402989987C00CDA6D9 /* Extension + UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED883F2989987C00CDA6D9 /* Extension + UILabel.swift */; };
+		ACED88422989988D00CDA6D9 /* Extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED88412989988D00CDA6D9 /* Extension + UIButton.swift */; };
+		ACED8844298998A800CDA6D9 /* Extension + UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED8843298998A800CDA6D9 /* Extension + UIRefreshControl.swift */; };
+		ACED8846298998B900CDA6D9 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED8845298998B900CDA6D9 /* Extension + UIView.swift */; };
+		ACED8849298998E500CDA6D9 /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED8848298998E500CDA6D9 /* HouseViewController.swift */; };
+		ACED884B298998FA00CDA6D9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED884A298998FA00CDA6D9 /* SearchViewController.swift */; };
+		ACED884D2989990400CDA6D9 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED884C2989990400CDA6D9 /* StoryViewController.swift */; };
+		ACED884F2989990E00CDA6D9 /* FollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED884E2989990E00CDA6D9 /* FollowersViewController.swift */; };
+		ACED88512989991700CDA6D9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED88502989991700CDA6D9 /* ProfileViewController.swift */; };
+		ACED88542989994200CDA6D9 /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED88532989994200CDA6D9 /* StoryModel.swift */; };
+		ACED88562989994600CDA6D9 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED88552989994600CDA6D9 /* PostModel.swift */; };
+		ACED88582989994E00CDA6D9 /* RecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED88572989994E00CDA6D9 /* RecommendModel.swift */; };
+		ACED885A2989996000CDA6D9 /* TypeStoryOrPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED88592989996000CDA6D9 /* TypeStoryOrPost.swift */; };
+		ACED8860298999E200CDA6D9 /* RecommendTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED885F298999E200CDA6D9 /* RecommendTableCell.swift */; };
+		ACED8862298999EA00CDA6D9 /* RecommendItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED8861298999EA00CDA6D9 /* RecommendItemCell.swift */; };
+		ACED8865298999F900CDA6D9 /* StoryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED8864298999F900CDA6D9 /* StoryTableCell.swift */; };
+		ACED886729899A0000CDA6D9 /* StoryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED886629899A0000CDA6D9 /* StoryItemCell.swift */; };
+		ACED886A29899A0D00CDA6D9 /* PostTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED886929899A0D00CDA6D9 /* PostTableCell.swift */; };
+		ACED886D29899A2B00CDA6D9 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED886C29899A2B00CDA6D9 /* LogoView.swift */; };
+		ACED886F29899A3000CDA6D9 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED886E29899A3000CDA6D9 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACED881E2989975100CDA6D9 /* Insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACED88212989975100CDA6D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACED88232989975100CDA6D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACED88252989975100CDA6D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ACED88282989975100CDA6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACED882A2989975200CDA6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACED882D2989975200CDA6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACED882F2989975200CDA6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACED8836298997F100CDA6D9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		ACED883B2989984E00CDA6D9 /* Extension + UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UITableView.swift"; sourceTree = "<group>"; };
+		ACED883D2989986600CDA6D9 /* Extension + UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIImageView.swift"; sourceTree = "<group>"; };
+		ACED883F2989987C00CDA6D9 /* Extension + UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UILabel.swift"; sourceTree = "<group>"; };
+		ACED88412989988D00CDA6D9 /* Extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIButton.swift"; sourceTree = "<group>"; };
+		ACED8843298998A800CDA6D9 /* Extension + UIRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIRefreshControl.swift"; sourceTree = "<group>"; };
+		ACED8845298998B900CDA6D9 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		ACED8848298998E500CDA6D9 /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
+		ACED884A298998FA00CDA6D9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		ACED884C2989990400CDA6D9 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		ACED884E2989990E00CDA6D9 /* FollowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersViewController.swift; sourceTree = "<group>"; };
+		ACED88502989991700CDA6D9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ACED88532989994200CDA6D9 /* StoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModel.swift; sourceTree = "<group>"; };
+		ACED88552989994600CDA6D9 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		ACED88572989994E00CDA6D9 /* RecommendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendModel.swift; sourceTree = "<group>"; };
+		ACED88592989996000CDA6D9 /* TypeStoryOrPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeStoryOrPost.swift; sourceTree = "<group>"; };
+		ACED885F298999E200CDA6D9 /* RecommendTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendTableCell.swift; sourceTree = "<group>"; };
+		ACED8861298999EA00CDA6D9 /* RecommendItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendItemCell.swift; sourceTree = "<group>"; };
+		ACED8864298999F900CDA6D9 /* StoryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableCell.swift; sourceTree = "<group>"; };
+		ACED886629899A0000CDA6D9 /* StoryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItemCell.swift; sourceTree = "<group>"; };
+		ACED886929899A0D00CDA6D9 /* PostTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableCell.swift; sourceTree = "<group>"; };
+		ACED886C29899A2B00CDA6D9 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		ACED886E29899A3000CDA6D9 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +98,132 @@
 		ACED88202989975100CDA6D9 /* Insta */ = {
 			isa = PBXGroup;
 			children = (
+				ACED885B298999AA00CDA6D9 /* View */,
+				ACED88522989993600CDA6D9 /* Model */,
+				ACED8847298998CE00CDA6D9 /* Controllers */,
+				ACED883A2989983D00CDA6D9 /* Extension */,
+				ACED8835298997E200CDA6D9 /* MainTabBarController */,
+				ACED88382989980000CDA6D9 /* Supporting */,
+				ACED88392989982900CDA6D9 /* Others */,
+			);
+			path = Insta;
+			sourceTree = "<group>";
+		};
+		ACED8835298997E200CDA6D9 /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				ACED8836298997F100CDA6D9 /* MainTabBarController.swift */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		ACED88382989980000CDA6D9 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
 				ACED88212989975100CDA6D9 /* AppDelegate.swift */,
 				ACED88232989975100CDA6D9 /* SceneDelegate.swift */,
-				ACED88252989975100CDA6D9 /* ViewController.swift */,
-				ACED88272989975100CDA6D9 /* Main.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		ACED88392989982900CDA6D9 /* Others */ = {
+			isa = PBXGroup;
+			children = (
 				ACED882A2989975200CDA6D9 /* Assets.xcassets */,
 				ACED882C2989975200CDA6D9 /* LaunchScreen.storyboard */,
 				ACED882F2989975200CDA6D9 /* Info.plist */,
 			);
-			path = Insta;
+			path = Others;
+			sourceTree = "<group>";
+		};
+		ACED883A2989983D00CDA6D9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ACED883B2989984E00CDA6D9 /* Extension + UITableView.swift */,
+				ACED883D2989986600CDA6D9 /* Extension + UIImageView.swift */,
+				ACED883F2989987C00CDA6D9 /* Extension + UILabel.swift */,
+				ACED88412989988D00CDA6D9 /* Extension + UIButton.swift */,
+				ACED8843298998A800CDA6D9 /* Extension + UIRefreshControl.swift */,
+				ACED8845298998B900CDA6D9 /* Extension + UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ACED8847298998CE00CDA6D9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACED8848298998E500CDA6D9 /* HouseViewController.swift */,
+				ACED884A298998FA00CDA6D9 /* SearchViewController.swift */,
+				ACED884C2989990400CDA6D9 /* StoryViewController.swift */,
+				ACED884E2989990E00CDA6D9 /* FollowersViewController.swift */,
+				ACED88502989991700CDA6D9 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ACED88522989993600CDA6D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACED88532989994200CDA6D9 /* StoryModel.swift */,
+				ACED88552989994600CDA6D9 /* PostModel.swift */,
+				ACED88572989994E00CDA6D9 /* RecommendModel.swift */,
+				ACED88592989996000CDA6D9 /* TypeStoryOrPost.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACED885B298999AA00CDA6D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACED886B29899A1E00CDA6D9 /* CustomView */,
+				ACED885D298999CA00CDA6D9 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACED885D298999CA00CDA6D9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ACED886829899A0600CDA6D9 /* Post */,
+				ACED8863298999F000CDA6D9 /* Story */,
+				ACED885E298999D500CDA6D9 /* RecommendPost */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		ACED885E298999D500CDA6D9 /* RecommendPost */ = {
+			isa = PBXGroup;
+			children = (
+				ACED885F298999E200CDA6D9 /* RecommendTableCell.swift */,
+				ACED8861298999EA00CDA6D9 /* RecommendItemCell.swift */,
+			);
+			path = RecommendPost;
+			sourceTree = "<group>";
+		};
+		ACED8863298999F000CDA6D9 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				ACED8864298999F900CDA6D9 /* StoryTableCell.swift */,
+				ACED886629899A0000CDA6D9 /* StoryItemCell.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		ACED886829899A0600CDA6D9 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				ACED886929899A0D00CDA6D9 /* PostTableCell.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		ACED886B29899A1E00CDA6D9 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				ACED886C29899A2B00CDA6D9 /* LogoView.swift */,
+				ACED886E29899A3000CDA6D9 /* ButtonView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +286,6 @@
 			files = (
 				ACED882E2989975200CDA6D9 /* LaunchScreen.storyboard in Resources */,
 				ACED882B2989975200CDA6D9 /* Assets.xcassets in Resources */,
-				ACED88292989975100CDA6D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +296,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACED88262989975100CDA6D9 /* ViewController.swift in Sources */,
+				ACED884D2989990400CDA6D9 /* StoryViewController.swift in Sources */,
+				ACED88562989994600CDA6D9 /* PostModel.swift in Sources */,
+				ACED886F29899A3000CDA6D9 /* ButtonView.swift in Sources */,
 				ACED88222989975100CDA6D9 /* AppDelegate.swift in Sources */,
+				ACED884B298998FA00CDA6D9 /* SearchViewController.swift in Sources */,
+				ACED8860298999E200CDA6D9 /* RecommendTableCell.swift in Sources */,
+				ACED886A29899A0D00CDA6D9 /* PostTableCell.swift in Sources */,
+				ACED883C2989984E00CDA6D9 /* Extension + UITableView.swift in Sources */,
+				ACED8865298999F900CDA6D9 /* StoryTableCell.swift in Sources */,
+				ACED88512989991700CDA6D9 /* ProfileViewController.swift in Sources */,
+				ACED88402989987C00CDA6D9 /* Extension + UILabel.swift in Sources */,
+				ACED8837298997F100CDA6D9 /* MainTabBarController.swift in Sources */,
+				ACED886729899A0000CDA6D9 /* StoryItemCell.swift in Sources */,
+				ACED88582989994E00CDA6D9 /* RecommendModel.swift in Sources */,
+				ACED886D29899A2B00CDA6D9 /* LogoView.swift in Sources */,
 				ACED88242989975100CDA6D9 /* SceneDelegate.swift in Sources */,
+				ACED8849298998E500CDA6D9 /* HouseViewController.swift in Sources */,
+				ACED8846298998B900CDA6D9 /* Extension + UIView.swift in Sources */,
+				ACED88422989988D00CDA6D9 /* Extension + UIButton.swift in Sources */,
+				ACED884F2989990E00CDA6D9 /* FollowersViewController.swift in Sources */,
+				ACED8862298999EA00CDA6D9 /* RecommendItemCell.swift in Sources */,
+				ACED883E2989986600CDA6D9 /* Extension + UIImageView.swift in Sources */,
+				ACED8844298998A800CDA6D9 /* Extension + UIRefreshControl.swift in Sources */,
+				ACED885A2989996000CDA6D9 /* TypeStoryOrPost.swift in Sources */,
+				ACED88542989994200CDA6D9 /* StoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ACED88272989975100CDA6D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACED88282989975100CDA6D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ACED882C2989975200CDA6D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,10 +460,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Insta/Info.plist;
+				INFOPLIST_FILE = Insta/Others/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,10 +486,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Insta/Info.plist;
+				INFOPLIST_FILE = Insta/Others/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
